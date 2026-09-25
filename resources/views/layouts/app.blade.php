@@ -22,7 +22,7 @@
         }
 
         .navbar.bg-primary {
-            background-color: #0f2747 !important;
+            background-color: #991010 !important;
         }
 
         .navbar-dark .navbar-nav .nav-link {

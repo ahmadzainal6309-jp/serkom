@@ -1,8 +1,8 @@
 # Laporan Debugging
 
-| No. | Nama Bug | Penyebab | Solusi | Status |
+| Nama test | Skenario | Expected result | actual result | Status |
 |:---:|:---------|:--------|:------|:------:|
-| 1 | Stok Minus | Tidak ada validasi jumlah beli vs stok | Tambah validasi `$request->jumlah <= $produk->stok` | Fixed |
-| 2 | Error Subtotal | Variabel harga bertipe string | Ubah tipe data ke `(int)` sebelum dikali | Fixed |
+| test_hitung_subtotal | Uji perkalian Rp15.000 x 3 | Subtotal 45000 | Subtotal 45000 | Pass |
+| test_kurangi_stok | Stok awal 10 dikurangi 3 | Sisa stok 7 | Sisa stok 7 | pass |
 
 ---

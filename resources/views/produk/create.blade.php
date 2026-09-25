@@ -14,7 +14,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Nama Produk</label>
-                        <input type="text" name="nama_produks" class="form-control @error('nama_produk') is-invalid @enderror"
+                        <input type="text" name="nama_produk" class="form-control @error('nama_produk') is-invalid @enderror"
                                value="{{ old('nama_produk') }}" placeholder="Contoh: Indomie Goreng" required>
                         @error('nama_produk')
                             <div class="invalid-feedback">{{ $message }}</div>
